@@ -1,0 +1,80 @@
+O que já temos:
+
+Campo de pesquisa
+Menu de navegação
+Botões
+Modal
+Text fields
+Badge
+
+
+Observações: 
+
+Tu colocou um badge indicando notificações no coração, mas o coração só faz levar para a página dos favoritos. N faz sentido ele ter um badge.
+Tenta adicionar o ícone do sininho entre o coração e o ícone de fazer login, e coloca o badge das notificações nele.
+
+
+
+Ideias:
+
+
+Adicionar um ícone que leva a um formulário para cadastrar pets, talvez substituir o ícone dos 3 pontos por uma engrenagem e,
+além de adcionar a opção de cadastrar pet, colocar outras opções genéricas desse tipo de menu como "Settings" (que n vão levar a nada claro):
+
+Radio --> Que tipo de pet quer cadastrar (gato, cachorro, cobra, etc), gênero do pet
+Data picker --> colocar a data de nascimento do pet
+
+
+
+
+Alterar a página favoritos:
+
+Deixar a parte de cima igual a página principal (ctrl + c, ctrl + v).
+Logo em baixo coloca o "Meus Favoritos", mas centralizado:
+
+Breadcrumb --> Coloca em baixo dos meus favoritos. Ele deve mostrar: Home --> Meus favoritos.
+Home deve ser clicável e levar de volta a página inicial, Meus Favoritos não pode ser clicável.
+
+Em baixo do breadcrumb pode deixar o "desenvolvido por Márcio e Ian".
+
+
+
+Tooltips --> Consegui adicionar os tooltips. Perguntei pro chat do bing e ele me disse:
+
+
+Existem várias maneiras de adicionar tooltips em HTML. Uma maneira simples é usar o atributo title em qualquer tag HTML que você precisar. Ele exibe um texto quando o usuário
+passa o ponteiro do mouse sobre o elemento alvo 1. Aqui está um exemplo:
+
+<div title="Este é o meu tooltip">
+  <p>Passe o mouse para obter informações</p>
+</div>
+
+Você também pode usar CSS e JavaScript para criar tooltips personalizados 2. Você gostaria de saber mais sobre como criar tooltips com CSS e JavaScript ou sobre como usar o
+atributo title?
+
+
+Então eu fui no html de cada ícone do canto superior direito e coloquei um tooltip, caso você queira alterar pra uma descrição que combine mais com o ícone é so mudar
+o atributo "title" dentro da abertura da tag do ícone. 
+
+Por exemplo, na linha 61 coloquei o tooltip como "Pesquisar". Inclusive já coloquei nos 3 pontos o tooltip "Configurações", acho melhor seguir a idéia de substituir ele pela
+engrenagem para adicionar o formulário mesmo.
+
+Também fiz o ícone do carrinho ser clicável como todos os outros, e adicionei a ele o tooltip "Carrinho de compras".
+
+Espero q isso n esteja redudante, até pq n sei se era exatamente isso q tu tava fazendo até pq eu n estava vendo sua tela kkkkkkk.
+
+Por fim concertei o bug do botão de pesquisa.
+
+
+Com isso completaríamos 10 elementos diferentes:
+
+1 - Campo de pesquisa
+2 - Menu de navegação
+3 - Botões
+4 - Modal
+5 - Text fields
+6 - Badge
+7 - Radio
+8 - Data picker
+9 - Breadcrumb
+10 - Tooltips
